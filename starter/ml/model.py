@@ -69,7 +69,7 @@ def inference(model, X):
 
 
 def slice_census(df, feature, model, label, cat_features, encoder, lb):
-    """ 
+    """
     Function for calculating slice-wise statistics on a feature
     """
     label = "salary"

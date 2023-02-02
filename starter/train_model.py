@@ -1,5 +1,4 @@
 # Script to train machine learning model.
-
 from sklearn.model_selection import train_test_split
 from joblib import dump
 import pandas as pd
@@ -68,7 +67,9 @@ result_dict = slice_census(
     lb)
 with open(metrics_location, 'w') as f:
     for key, val in result_dict.items():
+        print(f'{key}:')
         print(f'{key}:', file=f)
         for key2, val2 in result_dict[key].items():
+            print(f'\t {key2} : {val2}')
             print(f'\t {key2} : {val2}', file=f)
-print('Slice tests completed')
+print(f'Slice tests completed. Output written to {metrics_location}')
