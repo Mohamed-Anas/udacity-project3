@@ -1,64 +1,64 @@
-Doctorate:
-	 precision : 0.84
-	 recall : 0.83
-	 fbeta : 0.84
-Prof-school:
-	 precision : 0.82
-	 recall : 0.78
-	 fbeta : 0.8
-Some-college:
-	 precision : 0.56
-	 recall : 0.56
-	 fbeta : 0.56
-7th-8th:
-	 precision : 0.25
-	 recall : 0.4
-	 fbeta : 0.31
 10th:
-	 precision : 0.5
-	 recall : 0.29
-	 fbeta : 0.37
-HS-grad:
-	 precision : 0.57
-	 recall : 0.48
-	 fbeta : 0.52
-11th:
-	 precision : 0.5
-	 recall : 0.36
-	 fbeta : 0.42
-Bachelors:
-	 precision : 0.72
-	 recall : 0.7
-	 fbeta : 0.71
-9th:
-	 precision : 0.0
-	 recall : 0.0
-	 fbeta : 0.0
-Masters:
-	 precision : 0.76
-	 recall : 0.78
-	 fbeta : 0.77
-Assoc-acdm:
-	 precision : 0.67
-	 recall : 0.64
-	 fbeta : 0.65
-5th-6th:
-	 precision : 0.5
-	 recall : 0.25
-	 fbeta : 0.33
-Assoc-voc:
-	 precision : 0.53
-	 recall : 0.48
+	 precision : 0.71
+	 recall : 0.38
 	 fbeta : 0.5
+Some-college:
+	 precision : 0.54
+	 recall : 0.53
+	 fbeta : 0.53
+HS-grad:
+	 precision : 0.55
+	 recall : 0.5
+	 fbeta : 0.52
+Prof-school:
+	 precision : 0.85
+	 recall : 0.86
+	 fbeta : 0.86
+Bachelors:
+	 precision : 0.75
+	 recall : 0.69
+	 fbeta : 0.72
+Masters:
+	 precision : 0.81
+	 recall : 0.77
+	 fbeta : 0.79
+Assoc-voc:
+	 precision : 0.77
+	 recall : 0.61
+	 fbeta : 0.68
+Doctorate:
+	 precision : 0.91
+	 recall : 0.88
+	 fbeta : 0.89
+12th:
+	 precision : 0.29
+	 recall : 0.4
+	 fbeta : 0.33
+Assoc-acdm:
+	 precision : 0.72
+	 recall : 0.73
+	 fbeta : 0.73
+11th:
+	 precision : 0.56
+	 recall : 0.33
+	 fbeta : 0.42
 1st-4th:
 	 precision : 0.0
-	 recall : 1.0
+	 recall : 0.0
 	 fbeta : 0.0
-12th:
+7th-8th:
+	 precision : 0.17
+	 recall : 0.1
+	 fbeta : 0.12
+5th-6th:
 	 precision : 0.0
 	 recall : 0.0
 	 fbeta : 0.0
+9th:
+	 precision : 1.0
+	 recall : 0.29
+	 fbeta : 0.44
 Preschool:
-	 precision : 0.0
+	 precision : 1.0
 	 recall : 1.0
-	 fbeta : 0.0
+	 fbeta : 1.0
