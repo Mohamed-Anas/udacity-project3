@@ -1,4 +1,17 @@
-Working in a command line environment is recommended for ease of use with git and dvc. If on Windows, WSL1 or 2 is recommended.
+# MLOPS Project Submission Details
+
+The live api is hosted at https://predict-salary.onrender.com
+
+The end-point for POST request is https://predict-salary.onrender.com/predict
+
+main.py - Code for creating the API
+test_api.py - Tests for the API
+test_ml_functions - Tests for ML Functions
+live_api_post.py - Script to hit the API with POST request
+screenshots - Folder containing screenshot of results
+models - Folder containing trained ML models and slice_output.txt
+./models/slice_output.txt - Text file containing result for slices on Education
+
 
 # Environment Set up
 * Download and install conda if you don’t have it already.
