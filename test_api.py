@@ -17,27 +17,27 @@ def test_get_path():
 
 def test_post_negative():
     example_neg = {
-        'age': 28,
+        'age': 32,
         'workclass': 'Private',
-        'fnlgt': 338409,
-        'education': 'Bachelors',
-        'education-num': 13,
-        'marital-status': 'Married-civ-spouse',
-        'occupation': 'Prof-specialty',
-        'relationship': 'Wife',
+        'fnlgt': 205019,
+        'education': 'Assoc-acdm',
+        'education-num': 12,
+        'marital-status': 'Never-married',
+        'occupation': 'Sales',
+        'relationship': 'Not-in-family',
         'race': 'Black',
-                'sex': 'Female',
-                'capital-gain': 0,
-                'capital-loss': 0,
-                'hours-per-week': 40,
-                'native-country': 'Cuba'
+        'sex': 'Male',
+        'capital-gain': 0,
+        'capital-loss': 0,
+        'hours-per-week': 50,
+        'native-country': 'United-States'
     }
     data = json.dumps(example_neg)
     r = client.post("/predict", data=data)
     print(r.json())
     assert r.status_code == 200
     assert list(r.json().keys()) == ["salary"]
-    assert r.json()["salary"] == " <=50K"
+    assert r.json()["salary"] == "<=50K"
 
 
 def test_post_positive():
@@ -62,4 +62,4 @@ def test_post_positive():
     print(r.json())
     assert r.status_code == 200
     assert list(r.json().keys()) == ["salary"]
-    assert r.json()["salary"] == " >50K"
+    assert r.json()["salary"] == ">50K"
