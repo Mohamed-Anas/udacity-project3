@@ -28,3 +28,6 @@ jobs:
     - name: Test with flake8 # Check code quality
       run: |
         flake8
+    - name: Deploy automatically in render
+      run: |
+        curl -g https://api.render.com/deploy/srv-cfdk5dhgp3jolcl75in0?key=RIbjijrawQg
